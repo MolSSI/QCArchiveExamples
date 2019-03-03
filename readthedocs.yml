@@ -1,0 +1,5 @@
+conda:
+    file: requirements.yml
+python:
+    version: 3
+    setup_py_install: true
