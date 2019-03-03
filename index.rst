@@ -55,10 +55,12 @@ accelerate progress and prevent fragmentation in this burgeoning field.
 **Ecosystem**
 
 * :doc:`qcarchive_overview`
+* :doc:`use_cases`
 
 .. toctree::
    :maxdepth: 1
    :hidden:
    :caption: Ecosystem
 
+   use_cases
    qcarchive_overview
