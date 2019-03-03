@@ -19,8 +19,12 @@ popular and approximate methods.
 Forcefield Construction
 -----------------------
 
-Forcefield construction requires large bodies bond, angle, dihedral,
-electrostatic potential, polarizability values, and more.
+Forcefield construction requires large numbers of computations that elucidate
+bond, angle, dihedral, electrostatic potential, polarizabilities, and
+other quantites. Computation of these values is often done in a bespoke manner
+where computations are generated for a single molecule and then discarded.
+Keeping these results will assist in building a large repository of data to
+query rather than to continue to generate.
 
 
 Machine Learning
