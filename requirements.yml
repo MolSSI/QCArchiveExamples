@@ -6,6 +6,11 @@ dependencies:
     - sphinx
     - sphinx_rtd_theme
     - nbsphinx
+    - pandoc
+    - nbformat
+    - jupyter_client
+
+      # Depends
     - qcportal
 
     - pip:
