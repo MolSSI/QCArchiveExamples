@@ -6,6 +6,8 @@ dependencies:
     - python=3
     - sphinx
     - sphinx_rtd_theme
+    - nbsphinx
+    - qcportal
 
     - pip:
       - git+git://github.com/MolSSI/qcarchive-sphinx-theme#egg=qcarchive_sphinx_theme

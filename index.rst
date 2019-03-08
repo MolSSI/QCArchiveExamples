@@ -39,6 +39,8 @@ datasets. The infrastructure for doing this, however, does not yet exist.
 MolSSI is in a unique position to build an easy-to-use data backend to
 accelerate progress and prevent fragmentation in this burgeoning field.
 
+****
+
 **Getting Started**
 
 * :doc:`install`
@@ -68,3 +70,13 @@ accelerate progress and prevent fragmentation in this burgeoning field.
 
    use_cases
    qcarchive_overview
+
+****
+
+**Basic Examples**
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Basic Examples
+
+   basic_examples/getting_started.ipynb
