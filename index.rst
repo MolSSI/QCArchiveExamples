@@ -58,20 +58,6 @@ accelerate progress and prevent fragmentation in this burgeoning field.
 
 ****
 
-**Ecosystem**
-
-* :doc:`qcarchive_overview`
-* :doc:`use_cases`
-
-.. toctree::
-   :maxdepth: 1
-   :hidden:
-   :caption: Ecosystem
-
-   use_cases
-   qcarchive_overview
-
-****
 
 **Basic Examples**
 
@@ -80,3 +66,5 @@ accelerate progress and prevent fragmentation in this burgeoning field.
    :caption: Basic Examples
 
    basic_examples/getting_started.ipynb
+   basic_examples/reaction_datasets.ipynb
+   basic_examples/torsiondrive_datasets.ipynb
