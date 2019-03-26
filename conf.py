@@ -54,17 +54,16 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.extlinks',
     'nbsphinx',
-    "jupyter_sphinx.embed_widgets",
 ]
 
 # NBSphinx
 nbsphinx_prolog = """
 {% set docname = env.doc2path(env.docname, base=None) %}
 
-You can run this notebook online in a |Binder| session or view it `on Github <https://github.com/MolSSI/QCArchiveExamples/blob/master/{{ docname }}>`_.
+You can run this notebook online in a `Binder <https://mybinder.org/v2/gh/MolSSI/QCArchiveExamples/master?urlpath=lab/tree/{{ docname }}>`_
+session or view it `on Github <https://github.com/MolSSI/QCArchiveExamples/blob/master/{{ docname }}>`_.
 
-.. |Binder| image:: https://mybinder.org/badge.svg
-   :target: https://mybinder.org/v2/gh/MolSSI/QCArchiveExamples/master?urlpath=lab/tree/{{ docname }}
+
 """
 
 napoleon_google_docstring = False
@@ -109,6 +108,7 @@ try:
     html_theme = 'qcarchive_sphinx_theme'
 except ModuleNotFoundError:
     html_theme = 'sphinx_rtd_theme'
+# html_theme="alabaster"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -212,3 +212,4 @@ intersphinx_mapping = {'python': ('https://docs.python.org/3.7', None),
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
