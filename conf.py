@@ -54,13 +54,14 @@ extensions = [
     'sphinx.ext.intersphinx',
     'sphinx.ext.extlinks',
     'nbsphinx',
+    "jupyter_sphinx.embed_widgets",
 ]
 
 # NBSphinx
 nbsphinx_prolog = """
 {% set docname = env.doc2path(env.docname, base=None) %}
 
-You can run this notebook in a `live session <https://mybinder.org/v2/gh/MolSSI/QCArchiveExamples/master?urlpath=lab/tree/{{ docname }}>`_ |Binder| or view it `on Github <https://github.com/MolSSI/QCArchiveExamples/blob/master/{{ docname }}>`_.
+You can run this notebook online in a |Binder| session or view it `on Github <https://github.com/MolSSI/QCArchiveExamples/blob/master/{{ docname }}>`_.
 
 .. |Binder| image:: https://mybinder.org/badge.svg
    :target: https://mybinder.org/v2/gh/MolSSI/QCArchiveExamples/master?urlpath=lab/tree/{{ docname }}
@@ -103,12 +104,11 @@ pygments_style = 'default'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-#try:
-#    import qcarchive_sphinx_theme
-#    html_theme = 'qcarchive_sphinx_theme'
-#except ModuleNotFoundError:
-html_theme = 'alabaster'
-html_theme = 'sphinx_rtd_theme'
+try:
+    import qcarchive_sphinx_theme
+    html_theme = 'qcarchive_sphinx_theme'
+except ModuleNotFoundError:
+    html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the

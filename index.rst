@@ -14,6 +14,12 @@ or with ``pip``::
 
     pip install qcportal
 
+.. note::
+
+    Plotly rendered images in the Jupyter notebooks do not yet correctly render on this
+    website. Please run the notebooks locally or in a Binder session to properly render
+    these images.
+
 
 .. toctree::
    :maxdepth: 1
