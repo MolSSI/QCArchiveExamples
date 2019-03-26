@@ -108,7 +108,6 @@ try:
     html_theme = 'qcarchive_sphinx_theme'
 except ModuleNotFoundError:
     html_theme = 'sphinx_rtd_theme'
-# html_theme="alabaster"
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -207,9 +206,12 @@ intersphinx_mapping = {'python': ('https://docs.python.org/3.7', None),
                        'qcengine': ('https://qcengine.readthedocs.io/en/latest/', None),
                        'qcfractal': ('https://qcfractal.readthedocs.io/en/latest/', None),
                       }
+intersphinx_mapping = {} # Currently not used
 
 # -- Options for todo extension ----------------------------------------------
 
 # If true, `todo` and `todoList` produce output, else they produce nothing.
 todo_include_todos = True
+
+html_context = {'extra_js_files': ["https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"]}
 
