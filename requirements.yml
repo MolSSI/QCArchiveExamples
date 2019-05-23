@@ -5,10 +5,11 @@ dependencies:
     - python=3
     - sphinx
     - sphinx_rtd_theme
+    - nbconvert
     - nbsphinx
+    - nbformat
     - pandoc
     - pygments
-    - nbformat
     - jupyter_client
 
       # Depends
