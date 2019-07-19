@@ -11,6 +11,7 @@ dependencies:
     - pandoc
     - pygments
     - jupyter_client
+    - ipython
 
       # Depends
     - qcportal
