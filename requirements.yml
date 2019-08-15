@@ -12,6 +12,7 @@ dependencies:
     - pygments
     - jupyter_client
     - ipython
+    - pip
 
       # Depends
     - qcportal
