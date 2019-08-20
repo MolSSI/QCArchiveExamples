@@ -103,17 +103,20 @@ pygments_style = 'default'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-try:
-    import qcarchive_sphinx_theme
-    html_theme = 'qcarchive_sphinx_theme'
-except ModuleNotFoundError:
-    html_theme = 'sphinx_rtd_theme'
+#try:
+#    import qcarchive_sphinx_theme
+#    html_theme = 'qcarchive_sphinx_theme'
+#except ModuleNotFoundError:
+html_theme = 'sphinx_rtd_theme'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+    # Disable showing the sidebar. Defaults to 'false'
+    'nosidebar': True,
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
@@ -215,3 +218,8 @@ todo_include_todos = True
 
 html_context = {'extra_js_files': ["https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"]}
 
+html_static_path = ['_static']
+html_css_files = [
+    'css/small-apps.css',
+    'css/style.css',
+]
