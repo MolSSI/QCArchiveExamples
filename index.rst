@@ -26,3 +26,10 @@ or with ``pip``::
    basic_examples/getting_started.ipynb
    basic_examples/reaction_datasets.ipynb
    basic_examples/torsiondrive_datasets.ipynb
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Cookbook
+
+
+   cookbook/cookbook.ipynb
