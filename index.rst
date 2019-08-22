@@ -32,4 +32,7 @@ or with ``pip``::
    :caption: Cookbook
 
 
-   cookbook/cookbook.ipynb
+   cookbook/overview.rst
+   cookbook/molecules.ipynb
+   cookbook/molecule_records.ipynb
+   cookbook/dataset_fields.ipynb
