@@ -60,10 +60,12 @@ extensions = [
 nbsphinx_prolog = """
 {% set docname = env.doc2path(env.docname, base=None) %}
 
-You can run this notebook online in a `Binder <https://mybinder.org/v2/gh/MolSSI/QCArchiveExamples/master?urlpath=lab/tree/{{ docname }}>`_
+You can run this notebook online in a |binder_link|
 session or view it `on Github <https://github.com/MolSSI/QCArchiveExamples/blob/master/{{ docname }}>`_.
 
+.. |binder_link| raw:: html
 
+    <a href="https://mybinder.org/v2/gh/MolSSI/QCArchiveExamples//master?urlpath=lab/tree/{{ docname }}" target="_blank">Binder</a>
 """
 
 napoleon_google_docstring = False
