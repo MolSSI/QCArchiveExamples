@@ -229,7 +229,7 @@ todo_include_todos = True
 html_context = {
     "extra_js_files": [
         "https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js",
-        "https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.2.1/iframeResizer.contentWindow.min.js",
+#        "https://cdnjs.cloudflare.com/ajax/libs/iframe-resizer/4.2.1/iframeResizer.contentWindow.min.js",
     ]
 }
 
