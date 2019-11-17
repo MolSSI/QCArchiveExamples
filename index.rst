@@ -43,5 +43,5 @@ or with ``pip``::
    :caption: Machine Learning
 
    machine_learning/getting_started.ipynb
-   machine_learning/umap_sklearn.ipynb
+   machine_learning/unsuper_learning.ipynb
    machine_learning/private_server.ipynb
