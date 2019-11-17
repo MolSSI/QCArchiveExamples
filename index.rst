@@ -37,3 +37,11 @@ or with ``pip``::
    cookbook/molecules.ipynb
    cookbook/molecule_records.ipynb
    cookbook/dataset_fields.ipynb
+
+.. toctree::
+   :maxdepth: 1
+   :caption: Machine Learning
+
+   machine_learning/getting_started.ipynb
+   machine_learning/umap_sklearn.ipynb
+   machine_learning/private_server.ipynb
