@@ -6,7 +6,7 @@ dependencies:
     - sphinx
     - sphinx_rtd_theme
     - nbconvert
-    - nbsphinx
+    - nbsphinx >=5.0
     - nbformat
     - pandoc
     - pygments
